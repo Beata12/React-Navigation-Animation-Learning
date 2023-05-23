@@ -61,6 +61,10 @@ const HomePage = () => {
 						</div>
 						<div className="col-md-6 d-flex justify-content-center align-items-center">
 							<img
+								data-aos="zoom-in-up"
+								data-aos-delay="100"
+								data-aos-duration="2500"
+								data-aos-deley="400"
 								className="img-style"
 								src={require("../assets/globe1.png")}
 								alt={"Add more descriptive alt"}

@@ -18,10 +18,22 @@ function OtherPage() {
 	return (
 		<div className="life-page">
 			<div className="header-mrg"></div>
-			<p className="header-text text-center">
+			<p
+				className="header-text text-center"
+				data-aos="flip-left"
+				data-aos-delay="100"
+				data-aos-duration="1500"
+				data-aos-deley="100"
+			>
 				Life is a beautiful adventure
 			</p>
-			<p className="text2 text-center ">
+			<p
+				className="text2 text-center "
+				data-aos="zoom-in-up"
+				data-aos-delay="100"
+				data-aos-duration="1500"
+				data-aos-deley="200"
+			>
 				Life is often described as a beautiful adventure. It offers us a
 				vast array of experiences, emotions, and opportunities for
 				growth.
@@ -31,8 +43,8 @@ function OtherPage() {
 			</p>
 			<div
 				className="introduction-topic container"
-				data-aos="zoom-in-up"
-				data-aos-delay="200"
+				data-aos="flip-left"
+				data-aos-delay="300"
 				data-aos-duration="1500"
 			>
 				<div className="container">
@@ -112,7 +124,13 @@ function OtherPage() {
 					</div>
 				</Collapse>
 			</div>
-			<p className="text2 text-center">
+			<p
+				className="text2 text-center"
+				data-aos="zoom-in-up"
+				data-aos-delay="100"
+				data-aos-duration="1500"
+				data-aos-deley="400"
+			>
 				Life is indeed a beautiful adventure. It is a journey full of
 				wonder, growth, and opportunities for self-discovery. <br />
 				Embrace it with open arms, cherish every moment, and make the

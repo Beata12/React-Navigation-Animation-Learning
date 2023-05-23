@@ -8,7 +8,7 @@ const HomePage = () => {
 				<a className="ms-4" href="#pagetop">
 					<Link to="/	">
 						<img
-							src={require("../assets/logo.png")}
+							src={require("../assets/logo1.png")}
 							className={"logo-size"}
 							alt={"Add more descriptive alt"}
 						/>
