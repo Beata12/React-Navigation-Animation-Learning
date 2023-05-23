@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+.study-page {
+	height: 90vh;
+	background: radial-gradient(
+		ellipse at center,
+		rgb(172, 110, 217) 0%,
+		rgb(110, 204, 217) 60%,
+		rgba(110, 204, 217, 0.6) 85%,
+		rgb(110, 204, 217) 100%
+	);
+}
+
+.img-study {
+	width: 600px;
+}
+
+.text-study {
+	text-align: justify;
+	font-size: 21px;
+	margin-left: 100px;
+	font-family: "Pangolin", cursive;
+}
+
+.study-header {
+	font-family: "Luckiest Guy", cursive;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+.link-study {
+	margin: 40px;
+	font-size: 30px;
+	font-family: "Rubik Wet Paint", cursive;
+}
+
+.mar {
+	height: 4vh;
+}

@@ -1,0 +1,57 @@
+.social-icon {
+	margin: 15px;
+}
+
+.ig {
+	background: #f09433;
+	border-radius: 50%;
+	background: -moz-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: -webkit-linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+	background: linear-gradient(
+		45deg,
+		#f09433 0%,
+		#e6683c 25%,
+		#dc2743 50%,
+		#cc2366 75%,
+		#bc1888 100%
+	);
+}
+
+.instagram {
+	color: white;
+	margin: 5px 10px;
+}
+
+.twitter {
+	color: #1da1f2;
+}
+
+.fb {
+	border-radius: 50%;
+	background-color: #3b5998;
+}
+
+.facebook {
+	margin: 5px 10px;
+	color: white;
+}
+
+.fb:hover,
+.twit:hover,
+.ig:hover {
+	opacity: 0.4;
+}

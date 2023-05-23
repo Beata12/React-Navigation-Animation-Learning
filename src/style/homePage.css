@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.home-page {
+	background: radial-gradient(
+		ellipse at center,
+		rgb(172, 110, 217) 0%,
+		rgb(110, 204, 217) 60%,
+		rgba(110, 204, 217, 0.6) 85%,
+		rgb(110, 204, 217) 100%
+	);
+}
+
+.img-style {
+	height: 200px;
+	animation: animate 2s infinite ease alternate;
+}
+
+@keyframes animate {
+	to {
+		transform: translateY(30px);
+	}
+}
+
+.list-item {
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	-webkit-transition: color 2s;
+	-moz-transition: color 2s;
+	-ms-transition: color 1s;
+	-o-transition: color 2s;
+	transition: color 1s;
+	text-decoration: none;
+}
+
+.list-item:hover {
+	color: rgb(217, 178, 232);
+}
+
+.link-items {
+	text-decoration: none;
+}
+
+.list-unstyled {
+	margin-top: 100px;
+}
+
+@media only screen and (min-width: 1480px) {
+	.list-item {
+		font-size: 80px;
+	}
+
+	.img-style {
+		margin-top: 100px;
+		height: 500px;
+	}
+
+	@keyframes animate {
+		to {
+			transform: translateY(50px);
+		}
+	}
+
+	.home-page {
+		display: block;
+		height: 100vh;
+	}
+}

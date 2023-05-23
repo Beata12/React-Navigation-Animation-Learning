@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+/* OTHER PAGE STYLING */
+
+/* .magical-text {
+	font-size: 48px;
+	font-family: "Arial", sans-serif;
+	color: #ff00ff;
+	animation: magical 4s infinite;
+}
+
+@keyframes magical {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.2);
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+} */
+.header-mrg {
+	height: 8vh;
+}
+
+.life-page {
+	background: radial-gradient(
+		ellipse at center,
+		rgb(172, 110, 217) 0%,
+		rgb(110, 204, 217) 60%,
+		rgba(110, 204, 217, 0.6) 85%,
+		rgb(110, 204, 217) 100%
+	);
+	background-size: cover;
+}
+
+.header-text {
+	font-family: "Permanent Marker", cursive;
+	font-size: 38px;
+	color: #ff6f61;
+	text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.4);
+	letter-spacing: 6px;
+	animation: rainbow 5s linear infinite;
+}
+
+.box {
+	border: 2px solid black;
+}
+
+@keyframes rainbow {
+	0% {
+		color: #ff6f61;
+	}
+	10% {
+		color: #ff964f;
+	}
+	20% {
+		color: #ffc34f;
+	}
+	30% {
+		color: #d0ff4f;
+	}
+	40% {
+		color: #9cff4f;
+	}
+	50% {
+		color: #4fff6c;
+	}
+	60% {
+		color: #4fdcff;
+	}
+	70% {
+		color: #824fff;
+	}
+	80% {
+		color: #9b59ab;
+	}
+	90% {
+		color: #c83765;
+	}
+	100% {
+		color: #fb4939;
+	}
+}
+
+.another-page {
+	height: 90vh;
+}
+
+.information {
+	margin-top: 10vh;
+}
+
+.info-box {
+	height: 50vh;
+	border: 1px solid black;
+}
+
+.info-header {
+	width: 100%;
+	border: 1px solid black;
+}
+
+.img-box {
+	width: 400px;
+	margin-top: 5px;
+}
+
+.text2 {
+	font-size: 18px;
+	font-family: "Mogra", cursive;
+}
+
+.introduction-topic {
+	margin: 8vh;
+}
+
+.btn-color {
+	border: 1px solid transparent;
+	font-size: 22px;
+	border-radius: 30px;
+	background-color: rgb(193, 139, 214);
+	padding: 15px;
+	color: rgba(110, 204, 217);
+	margin-bottom: 10px;
+	font-family: "Rubik Wet Paint", cursive;
+}
+
+.btn-color:hover {
+	background-color: rgb(186, 88, 224);
+	animation: rainbow-bg 4s linear infinite;
+	color: rgb(186, 88, 214);
+}
+
+@keyframes rainbow-bg {
+	0% {
+		background-color: #ff6f61;
+	}
+	20% {
+		background-color: #ffc34f;
+	}
+	30% {
+		background-color: #d0ff4f;
+	}
+
+	50% {
+		background-color: #4fff6c;
+	}
+	60% {
+		background-color: #4fdcff;
+	}
+	80% {
+		background-color: #9b59ab;
+	}
+
+	100% {
+		background-color: #fe6152;
+	}
+}
+
+.div1,
+.div2 {
+	font-family: "Carter One", cursive;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.div1:hover,
+.div2:hover {
+	color: rgb(79, 80, 82);
+}
+
+.simple-border {
+	border: 3px solid transparent;
+	border-image: linear-gradient(
+		to right,
+		rgb(193, 139, 214) 0%,
+		rgb(155, 123, 183) 50%,
+		rgb(161, 124, 183) 50%,
+		rgba(110, 204, 217) 100%
+	);
+	border-image-slice: 1;
+	height: 45vh;
+	padding: 30px;
+}
+
+.div-headers {
+	margin-bottom: 20px;
+}
+
+.text-box {
+	text-align: justify;
+	font-size: 18px;
+}
+
+@media only screen and (min-width: 1480px) {
+	.header-text {
+		font-size: 48px;
+	}
+
+	.life-page {
+		height: 100vh;
+	}
+
+	.img-style {
+		margin-top: 100px;
+		height: 500px;
+	}
+
+	@keyframes animate {
+		to {
+			transform: translateY(50px);
+		}
+	}
+
+	.text2 {
+		margin: 5vh;
+		font-size: 25px;
+		font-family: "Mogra", cursive;
+	}
+}
