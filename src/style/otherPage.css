@@ -185,8 +185,7 @@
 		rgba(110, 204, 217) 100%
 	);
 	border-image-slice: 1;
-	height: 45vh;
-	padding: 30px;
+	height: 25vh;
 }
 
 .div-headers {
@@ -222,5 +221,10 @@
 		margin: 5vh;
 		font-size: 25px;
 		font-family: "Mogra", cursive;
+	}
+
+	.simple-border {
+		height: 45vh;
+		padding: 30px;
 	}
 }

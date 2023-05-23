@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
+.desktop {
+	display: none !important;
+}
+
+.mobile {
+	display: block !important;
+}
+
 .home-page {
 	background: radial-gradient(
 		ellipse at center,
@@ -13,12 +21,6 @@
 .img-style {
 	height: 200px;
 	animation: animate 2s infinite ease alternate;
-}
-
-@keyframes animate {
-	to {
-		transform: translateY(30px);
-	}
 }
 
 .list-item {
@@ -47,7 +49,15 @@
 	margin-top: 100px;
 }
 
-@media only screen and (min-width: 1480px) {
+@media only screen and (min-width: 1280px) {
+	.desktop {
+		display: flex !important;
+	}
+
+	.mobile {
+		display: none !important;
+	}
+
 	.list-item {
 		font-size: 80px;
 	}
@@ -55,6 +65,13 @@
 	.img-style {
 		margin-top: 100px;
 		height: 500px;
+		animation: animate 2s infinite ease alternate;
+	}
+
+	@keyframes animate {
+		to {
+			transform: translateY(30px);
+		}
 	}
 
 	@keyframes animate {

@@ -2,8 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
 
+.desktop {
+	display: flex;
+}
+
 .study-page {
-	height: 90vh;
 	background: radial-gradient(
 		ellipse at center,
 		rgb(172, 110, 217) 0%,
@@ -14,28 +17,69 @@
 }
 
 .img-study {
-	width: 600px;
+	width: 200px;
 }
 
 .text-study {
 	text-align: justify;
-	font-size: 21px;
-	margin-left: 100px;
+	font-size: 18px;
 	font-family: "Pangolin", cursive;
 }
 
 .study-header {
 	font-family: "Luckiest Guy", cursive;
-	font-size: 40px;
-	margin-bottom: 30px;
+	font-size: 20px;
 }
 
 .link-study {
-	margin: 40px;
-	font-size: 30px;
+	font-size: 20px;
 	font-family: "Rubik Wet Paint", cursive;
 }
 
 .mar {
 	height: 4vh;
+}
+
+@media only screen and (min-width: 1280px) {
+	.desktop {
+		display: none !important;
+	}
+
+	.study-page {
+		height: 90vh;
+		background: radial-gradient(
+			ellipse at center,
+			rgb(172, 110, 217) 0%,
+			rgb(110, 204, 217) 60%,
+			rgba(110, 204, 217, 0.6) 85%,
+			rgb(110, 204, 217) 100%
+		);
+	}
+
+	.img-study {
+		width: 600px;
+	}
+
+	.text-study {
+		text-align: justify;
+		font-size: 21px;
+		margin-left: 100px;
+		font-family: "Pangolin", cursive;
+	}
+
+	.study-header {
+		font-family: "Luckiest Guy", cursive;
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+
+	.link-study {
+		margin: 40px;
+		font-size: 30px;
+		font-family: "Rubik Wet Paint", cursive;
+	}
+
+	.mar {
+		height: 4vh;
+	}
 }
